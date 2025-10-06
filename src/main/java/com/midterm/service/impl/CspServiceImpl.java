@@ -113,35 +113,35 @@ public class CspServiceImpl implements CspService {
 		List<Map<String, String>> list = new ArrayList<>();
 
 		list.add(Map.of("status", "Active", "price", "700", "description", "降噪、長續航，適合通勤使用", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "1", "stock", "10",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "0001", "stock", "10",
 				"name", "藍牙耳機"));
-		list.add(Map.of("status", "Active", "price", "200", "description", "含 HDMI、USB3.0、SD卡插槽", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "2", "stock", "5",
+		list.add(Map.of("status", "Active", "price", "200", "description", "含 HDMI、USB3.0、有SD卡插槽", "createTime",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "0002", "stock", "5",
 				"name", "多功能集線器"));
-		list.add(Map.of("status", "Active", "price", "350", "description", "青軸，RGB 背光，可編程巨集", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "3", "stock", "5",
+		list.add(Map.of("status", "Active", "price", "350", "description", "青軸，RGB 背光，輕巧方便", "createTime",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "3", "stock", "5",
 				"name", "藍芽鍵盤"));
 		list.add(Map.of("status", "Active", "price", "500", "description", "符合手型，長時間使用不疲勞", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "4", "stock", "3",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "4", "stock", "3",
 				"name", "人體工學滑鼠"));
 		list.add(Map.of("status", "Active", "price", "799", "description", "支援 PD 快充，雙 USB 輸出", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "5", "stock", "5",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "5", "stock", "5",
 				"name", "行動電源"));
 		list.add(Map.of("status", "Active", "price", "600", "description", "IPS 面板，HDR 支援，護眼模式", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "6", "stock", "3",
+				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "6", "stock", "3",
 				"name", "電腦螢幕"));
-		list.add(Map.of("status", "Active", "price", "150", "description", "鋁合金材質，可調整高度", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "7", "stock", "10",
-				"name", "筆電支架"));
-		list.add(Map.of("status", "Active", "price", "900", "description", "防水設計，低音強化，攜帶方便", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "8", "stock", "7",
-				"name", "藍牙喇叭"));
-		list.add(Map.of("status", "Active", "price", "1200", "description", "USB 3.1，輕薄設計", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "9", "stock", "6",
-				"name", "外接硬碟"));
-		list.add(Map.of("status", "Active", "price", "2000", "description", "心率偵測，睡眠監測，防水設計", "createTime",
-				"2025-09-13 14:15:44.275", "updateTime", "2025-09-13 14:15:44.275", "productId", "10", "stock", "3",
-				"name", "智慧手錶"));
+//		list.add(Map.of("status", "Active", "price", "150", "description", "鋁合金材質，可調整高度", "createTime",
+//				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "7", "stock", "10",
+//				"name", "筆電支架"));
+//		list.add(Map.of("status", "Active", "price", "900", "description", "防水設計，低音強化，攜帶方便", "createTime",
+//				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "8", "stock", "7",
+//				"name", "藍牙喇叭"));
+//		list.add(Map.of("status", "Active", "price", "1200", "description", "USB 3.1，輕薄設計", "createTime",
+//				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "9", "stock", "6",
+//				"name", "外接硬碟"));
+//		list.add(Map.of("status", "Active", "price", "2000", "description", "心率偵測，睡眠監測，防水設計", "createTime",
+//				"2025/09/13/14:15", "updateTime", "2025/09/13/14:15", "productId", "10", "stock", "3",
+//				"name", "智慧手錶"));
 
 		Map<String, Object> rtnMap = new HashMap<>();
 		// 正		
@@ -249,13 +249,13 @@ public class CspServiceImpl implements CspService {
 				"address", "台北內湖區瑞光路520號");
 
 		// 3) 假的明細（兩筆）
-		Map<String, Object> item1 = Map.of("productId", 1001, "productName", "USB-C Hub", "unitPrice", 1299, "quantity",
-				2, "lineAmount", 2598);
-		Map<String, Object> item2 = Map.of("productId", 1005, "productName", "HDMI Cable", "unitPrice", 299, "quantity",
-				1, "lineAmount", 299);
+		Map<String, Object> item1 = Map.of("productId", 1001, "productName", "USB-C Hub", "unitPrice", 100, "quantity",
+				2, "lineAmount", 200);
+		Map<String, Object> item2 = Map.of("productId", 1005, "productName", "HDMI Cable", "unitPrice", 150, "quantity",
+				1, "lineAmount", 150);
 		List<Map<String, Object>> list = List.of(item1, item2);
 
-		int totalAmount = 123;
+		int totalAmount = 350;
 
 		// 4) data 區
 		Map<String, Object> data = new HashMap<>();
@@ -294,11 +294,11 @@ public class CspServiceImpl implements CspService {
 		System.err.println("completeOrder orderId = " + orderId);
 
 		Map<String, Object> rtn = new HashMap<>();
-//		rtn.put("returnCode", "0000");
-//		rtn.put("returnMsg", "完成訂單");
+		rtn.put("returnCode", "0000");
+		rtn.put("returnMsg", "完成訂單");
 		
-		rtn.put("returnCode", "E003");
-		rtn.put("returnMsg", "請確認訂單狀態");
+//		rtn.put("returnCode", "E003");
+//		rtn.put("returnMsg", "請確認訂單狀態");
 		return rtn;
 	}
 
@@ -337,11 +337,11 @@ public class CspServiceImpl implements CspService {
 		System.err.println("deleteOrder orderId = " + orderId);
 
 		Map<String, Object> rtn = new HashMap<>();
-//		rtn.put("returnCode", "0000");
-//		rtn.put("returnMsg", "成功刪除訂單");
+		rtn.put("returnCode", "0000");
+		rtn.put("returnMsg", "成功刪除訂單");
 		
-		rtn.put("returnCode", "E003");
-		rtn.put("returnMsg", "請確認訂單狀態");
+//		rtn.put("returnCode", "E003");
+//		rtn.put("returnMsg", "請確認訂單狀態");
 		
 		return rtn;
 	}
